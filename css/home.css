@@ -1,0 +1,129 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+}
+.banner video{
+    position: absolute;
+    width:auto;
+    height: 100%;
+    object-fit: cover;
+
+} 
+.navbar li a:hover{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar li {
+    
+    display: inline;
+    left: 130px;
+    top: 22px;
+} 
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 39px;
+}
+.logo img{
+    width: 80px;
+    filter: invert(100%);
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 46px;
+}
+.center{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 100%;
+}
+/* .login{
+    position: absolute;
+    top: 130px;
+    left: 1030px;
+}
+.login a{
+    border: 2px solid red;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    
+} */
+
+#li1
+{
+    display: block;
+}
+li {
+    display: block;
+   }
+   
+   li:hover {
+     cursor: pointer;
+   }
+   
+   ul li ul {
+     visibility: hidden;
+     opacity: 0;
+     position: absolute;
+     transition: all 10s ease;
+     margin-top:0px;
+     left: 0;
+     display: none;
+    margin-left: 920px;
+   }
+   
+   ul li:hover > ul,
+   ul li ul:hover {
+     visibility: visible;
+     opacity: 3;
+     display:block;
+   }
+#image{
+    position: absolute;
+    top:1px;
+    margin-left: 1030px;
+    filter: invert(100%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.info{
+    position: absolute;
+    font-size: 16px;
+    top:80px;
+    color: white;
+    margin-left: 1030px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navbar1 li a:hover{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar1 li {
+    
+    display: inline;
+    left: 130px;
+    top: 22px;
+} 
+.navbar1 li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}

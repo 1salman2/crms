@@ -1,0 +1,53 @@
+body{
+    background: url("https://s1.1zoom.me/big0/489/BUGATTI_La_Voiture_Noire_Black_Black_background_561618_1280x720.jpg");
+    background-size: cover;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.contact_us{
+    /* background:#2F4353; */
+    background: white;
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    padding-top: 30px;
+    padding-right: 37px;
+    border-radius: 8px;
+    width: 30%;
+    height: 80%;
+    padding-left: 36px;
+    text-align: center;
+    opacity: 70%;
+}
+.contact_us h1{
+    text-align: center;
+    margin-top: 0;
+}
+.form{
+    border: 1px solid black;
+    padding-top: 17px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.form label{
+    display: block;
+    text-align: left;
+    margin-left: 2px;
+}
+.form input,textarea{
+    color:black;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: left;
+}
+.btn a{
+    display:block;
+    background-color:black;
+    margin-top: 1px;
+    border-radius: 9px;
+    padding:14px 0;
+    color: white;
+    cursor: pointer;
+}

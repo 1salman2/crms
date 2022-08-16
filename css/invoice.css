@@ -1,0 +1,79 @@
+body{
+    background-color: #000000;
+    /* background-image: url("../pics/invoice.jpg"); */
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.return{
+    background-color: white;
+    position: absolute;
+    left: 370px;
+    width: 600px;
+    height: 100%;
+}
+.return h1{
+    text-align: center;
+}
+.cnic{
+    margin-top: 40px;
+}
+.cnic label{
+    display: block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.pin label{
+    display: block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.pin{
+    margin-top: 18px;
+}
+.save{
+    text-align: center;
+}
+.save button{
+    margin-top: 100px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration-style: solid;
+}
+
+.save button a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover 
+{
+    background: #354752;
+    background-image: -webkit-linear-gradient(top, #354752, #384147);
+    background-image: -moz-linear-gradient(top, #354752, #384147);
+    background-image: -ms-linear-gradient(top, #354752, #384147);
+    background-image: -o-linear-gradient(top, #354752, #384147);
+    background-image: linear-gradient(to bottom, #354752, #384147);
+    text-decoration: none;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    padding-left: 220px;
+}
